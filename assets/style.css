@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: left;
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+}
+
+.class {
+  display: block;
+}
+
+.top-section {
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
