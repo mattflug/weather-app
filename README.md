@@ -2,4 +2,4 @@ This weather app is for a traveler who wants to seethe weather outlook for multi
 
 The application can be found at: https://mattflug.github.io/weather-app/
 
-![alt text](/Assets/weather-app.png)
+![alt text](./assets/weather-app.png)
