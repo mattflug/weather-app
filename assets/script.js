@@ -29,9 +29,9 @@ function getCurrentWeather() {
       if (previousSearch.indexOf(cityName) === -1) {
         previousSearch.push(cityName);
         localStorage.setItem("weatherAPI", JSON.stringify(previousSearch));
-        getCurrentWeather1(cityName);
         displayLocalStorrage();
       }
+      getCurrentWeather1(cityName);
       // var cityEl = document.getElementById("city-name");
       // var tempEl = document.getElementById("temp");
       // var windEl = document.getElementById("wind");
